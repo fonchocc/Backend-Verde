@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/invoice")
-@CrossOrigin(origins = {"https://frontend-equipo-verde.firebaseapp.com/", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://frontend-equipo-verde.firebaseapp.com", "http://localhost:3000"})
 public class FacturaController {
 
     @Autowired
