@@ -25,7 +25,7 @@ public class SeguroModels {
 
     @Column(columnDefinition = "TEXT")
     @NotBlank(message = "La cobertura no puede estar vacía")
-    @Size(min = 10, max = 1000, message = "La cobertura debe tener entre 10 y 1000 caracteres")
+    @Size(min = 2, max = 1000, message = "La cobertura debe tener entre 2 y 1000 caracteres")
     private String cobertura;
 
     @Column

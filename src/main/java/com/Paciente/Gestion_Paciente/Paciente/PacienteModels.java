@@ -35,7 +35,6 @@ public class PacienteModels {
 
     @Column
     @NotBlank(message = "La edad no puede estar vacía")
-    @Pattern(regexp = "^[0-9]{1,3}$", message = "La edad debe ser un número entre 1 y 150")
     private String Edad;
 
     @Column
@@ -102,7 +101,7 @@ public class PacienteModels {
 
     @Column(columnDefinition = "TEXT")
     @NotBlank(message = "El motivo de ingreso no puede estar vacío")
-    @Size(min = 5, max = 500, message = "El motivo de ingreso debe tener entre 5 y 500 caracteres")
+    @Size(min = 1, max = 500, message = "El motivo de ingreso debe tener entre 1 y 500 caracteres")
     private String MotivoIngreso;
 
     @Column
