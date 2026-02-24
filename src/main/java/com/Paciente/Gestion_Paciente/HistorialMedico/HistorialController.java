@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/historial")
-@CrossOrigin(origins = {"https://frontend-equipo-verde.firebaseapp.com/", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://frontend-equipo-verde.firebaseapp.com", "http://localhost:3000"})
 public class HistorialController {
 
     @Autowired
