@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/paciente")
-@CrossOrigin(origins = {"https://frontend-equipo-verde.firebaseapp.com/", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://frontend-equipo-verde.firebaseapp.com", "http://localhost:3000"})
 public class Pacientecontrollers {
 
     @Autowired
